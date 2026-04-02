@@ -1,0 +1,10 @@
+{
+  "name": "taxijoker",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install --prefix web",
+    "build": "npm run build --prefix web && node scripts/prepare-hostinger-next-output.mjs",
+    "dev": "npm run dev --prefix web",
+    "start": "node scripts/start-hostinger-next.mjs"
+  }
+}
