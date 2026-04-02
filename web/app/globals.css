@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+:root {
+  --color-primary: oklch(75% 0.17 75);         /* amber/yellow — taxi */
+  --color-primary-foreground: oklch(12% 0 0);  /* dark text on yellow */
+  --color-background: oklch(99% 0 0);
+  --color-foreground: oklch(12% 0 0);
+  --color-muted: oklch(96% 0 0);
+  --color-muted-foreground: oklch(45% 0 0);
+  --color-border: oklch(90% 0 0);
+}
+
+@theme inline {
+  --color-primary: var(--color-primary);
+  --color-primary-foreground: var(--color-primary-foreground);
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-muted: var(--color-muted);
+  --color-muted-foreground: var(--color-muted-foreground);
+  --color-border: var(--color-border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}

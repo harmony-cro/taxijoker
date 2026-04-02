@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "siteName": "Taxi Joker",
+    "homeTitle": "Taxi Slavonski Brod",
+    "homeDescription": "Taxi Joker — reliable taxi service in Slavonski Brod. City and intercity transport, transfers, courier services and shopping. Call 091 3330 308."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "designBy": "Design by"
+  },
+  "topbar": {
+    "address": "Ivana Belostenca 101, Slav. Brod",
+    "phone": "091 3330 308",
+    "email": "taxijoker2018@gmail.com"
+  },
+  "hero": {
+    "tagline": "Order any type of transport, all in one place.",
+    "cta": "CONTACT US"
+  },
+  "features": {
+    "heading": "What makes us special?",
+    "items": [
+      {
+        "title": "Courier Services",
+        "text": "Need a parcel delivered? Give us a call and we'll take care of it."
+      },
+      {
+        "title": "Shopping",
+        "text": "Need groceries or don't want to drive late at night? We'll shop and deliver whatever you need."
+      },
+      {
+        "title": "Always On Time",
+        "text": "Our taxis are always there at the agreed time. In exceptional cases, your driver will let you know the exact arrival time."
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "Pricing",
+    "subheading": "City rides",
+    "items": [
+      { "label": "Starting fee", "price": "€3" },
+      { "label": "Per kilometre", "price": "€1" },
+      { "label": "Waiting (1h)", "price": "€8" }
+    ],
+    "note": "Cash payment.",
+    "disclaimer": "Travel outside Slavonski Brod and transport of large items (fridge, TV, etc.) is charged at a pre-agreed price. The meter starts upon the vehicle's arrival at your address."
+  },
+  "services": {
+    "heading": "Services",
+    "subheading": "All transport services",
+    "items": [
+      "City transport",
+      "Intercity transport",
+      "International transport",
+      "Airport transfers",
+      "Courier services",
+      "Shopping"
+    ]
+  },
+  "contact": {
+    "heading": "Contact us",
+    "phone": "091 3330 308",
+    "email": "taxijoker2018@gmail.com",
+    "address": "Ivana Belostenca 101, Slavonski Brod"
+  }
+}

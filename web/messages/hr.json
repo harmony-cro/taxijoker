@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "siteName": "Taxi Joker",
+    "homeTitle": "Taxi Slavonski Brod",
+    "homeDescription": "Taxi Joker — pouzdana taxi usluga u Slavonskom Brodu. Gradski i međugradski prijevoz, transferi, kurirske usluge i shopping. Nazovite 091 3330 308."
+  },
+  "nav": {
+    "home": "Početna",
+    "services": "Usluge",
+    "pricing": "Cijenik",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "rights": "Sva prava pridržana.",
+    "designBy": "Design by"
+  },
+  "topbar": {
+    "address": "Ivana Belostenca 101, Slav. Brod",
+    "phone": "091 3330 308",
+    "email": "taxijoker2018@gmail.com"
+  },
+  "hero": {
+    "tagline": "Naručite bilo koju vrstu prijevoza, sve na jednome mjestu.",
+    "cta": "KONTAKTIRAJTE NAS"
+  },
+  "features": {
+    "heading": "Po čemu smo posebni?",
+    "items": [
+      {
+        "title": "Kurirske Usluge",
+        "text": "Trebate uslugu prijevoza paketa? Nazovite nas i mi ćemo Vam ga dostaviti."
+      },
+      {
+        "title": "Shopping",
+        "text": "Ukoliko Vam je potrebno nešto od namirnica ili ne želite voziti u kasne sate, mi smo tu da Vam kupimo i dostavimo što god želite."
+      },
+      {
+        "title": "Uvijek na vrijeme",
+        "text": "Naši taksiji su uvijek tu u dogovoreno vrijeme. U iznimnim situacijama Vaš vozač će Vam reći točno vrijeme dolaska."
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "Cijenik",
+    "subheading": "Vožnja po gradu",
+    "items": [
+      { "label": "Start vožnje", "price": "3 €" },
+      { "label": "Dodatno po kilometru", "price": "1 €" },
+      { "label": "Čekanje (1h)", "price": "8 €" }
+    ],
+    "note": "Plaćanje gotovinom.",
+    "disclaimer": "Vožnja izvan Slavonskog Broda, kao i prijevoz stvari (hladnjak, TV i sl.) plaća se prema unaprijed dogovorenoj cijeni. Taksimetar se uključuje po dolasku vozila na adresu korisnika."
+  },
+  "services": {
+    "heading": "Usluge",
+    "subheading": "Ostale usluge prijevoza",
+    "items": [
+      "Gradski prijevoz",
+      "Međugradski prijevoz",
+      "Internacionalni prijevoz",
+      "Transferi do zračne luke",
+      "Kurirske usluge",
+      "Shopping"
+    ]
+  },
+  "contact": {
+    "heading": "Kontaktirajte nas",
+    "phone": "091 3330 308",
+    "email": "taxijoker2018@gmail.com",
+    "address": "Ivana Belostenca 101, Slavonski Brod"
+  }
+}
