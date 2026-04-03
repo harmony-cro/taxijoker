@@ -21,7 +21,6 @@ else if (existsSync(rootServerAlt)) runNode(rootServerAlt)
 else if (existsSync(webServerAlt)) runNode(webServerAlt)
 else if (existsSync(webServer)) runNode(webServer)
 else {
-  // Fallback: start Next directly (requires project files present).
   const res = spawnSync('npm', ['run', 'start', '--prefix', 'web'], {
     stdio: 'inherit',
     env: { ...process.env },

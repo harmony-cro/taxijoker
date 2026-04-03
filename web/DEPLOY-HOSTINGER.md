@@ -18,12 +18,15 @@ npm ci
 npm run build
 ```
 
-## 2. Set hPanel entry point
+## 2. Set hPanel Node.js app
 
 In Hostinger hPanel → Node.js:
-- **Node.js version:** 20.x or later
-- **Application startup file:** `.next/standalone/server.js`
-- **Application root:** project directory
+- **Node.js version:** 22.x or 24.x
+- **Application root:** repository root (where root `package.json` lives)
+- **Install command:** `npm ci`
+- **Build command:** `npm run build`
+- **Start command:** `npm start`
+- Optional startup file (only if panel requires a file path): `.next/standalone/web/server.js`
 
 Save and start the app.
 
@@ -42,7 +45,7 @@ SSH into the server and run:
 git pull
 npm ci
 npm run build
-# Restart app from hPanel or: pm2 restart <app-name>
+# Restart app from hPanel
 ```
 
 ## 5. Quick smoke test after deploy
@@ -50,3 +53,4 @@ npm run build
 - Open `/` — page loads, images visible
 - Open `/en/` — English version loads (if bilingual)
 - Check browser console for errors
+- If blank/403 and no Node logs: verify the domain is attached to a Node.js app (you should see a `nodejs/` folder on Hostinger, not only `public_html/`)

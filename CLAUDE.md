@@ -58,9 +58,9 @@ node scripts/sync-media.mjs \
 
 ## Template source
 - Base: `/home/colden/projects/business/harmony-template-base/`
-- Stack: Next.js 15, TypeScript, Tailwind v4, next-intl (HR+EN enabled), ESLint 9
-- Deploy: Hostinger shared hosting, hPanel Node.js entry point = `standalone/web/server.js`
-- Build: `npm run build` → `scripts/prepare-standalone.mjs` → `standalone/web/`
+- Stack: Next.js 16, TypeScript, Tailwind v4, next-intl (HR+EN enabled), ESLint 9
+- Deploy: Hostinger Node.js app via root `npm start` (standalone server under `.next/standalone/...`)
+- Build: `npm run build` (web build + standalone prep + copy `web/.next` to root `.next`)
 
 ## Paths
 - Project root: `/home/colden/projects/business/taxijoker/`
