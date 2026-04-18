@@ -46,7 +46,7 @@ function HeroSection() {
           className="h-20 w-auto object-contain brightness-0 invert"
           priority
         />
-        <p className="max-w-xl text-lg font-medium text-white/90 md:text-xl">
+        <p className="max-w-xl text-lg text-white/90 md:text-xl">
           {t('tagline')}
         </p>
         <a
